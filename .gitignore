@@ -10,8 +10,6 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-# Bower dependency directory (https://bower.io/)
-bower_components
 # Output folder 
 dist
 # Dependency directories
