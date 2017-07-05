@@ -1504,8 +1504,7 @@
 
 		if(this.options.autoclose)
 			this.input.trigger('blur');
-
-		raiseCallback(this.options.afterDone);
+			raiseCallback(this.options.afterDone(this.input, submit));
 	};
 
 	// Remove clockpicker from input
